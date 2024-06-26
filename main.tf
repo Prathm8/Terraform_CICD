@@ -1,9 +1,9 @@
 provider "aws" {
-  region = "us-west-2"
+  region = "sa-east-1"
 }
 
 resource "aws_instance" "dev" {
-    ami = "ami-01572eda7c4411960"
+    ami = "ami-053602453dbcba9be"
     instance_type = "t2.nano"
     tags = {
     Name = "dev-ec2"
